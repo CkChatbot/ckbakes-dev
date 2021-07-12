@@ -1,0 +1,42 @@
+{
+    "name": "echobot",
+    "version": "1.0.0",
+    "description": "Bot Builder v4 echo bot sample",
+    "author": "Microsoft",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "watch": "nodemon ./index.js",
+        "lint": "eslint .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com"
+    },
+    "dependencies": {
+        "botbuilder": "^4.11.0",
+        "botbuilder-ai": "^4.11.0",
+        "botbuilder-applicationinsights": "^4.11.1",
+        "botbuilder-azure": "^4.11.0",
+        "dateformat": "^4.5.1",
+        "dotenv": "^8.2.0",
+        "dotenv-extended": "^2.9.0",
+        "moment": "^2.29.1",
+        "mssql": "^6.3.1",
+        "node-cron": "^2.0.3",
+        "node-datetime": "^2.1.2",
+        "nodemailer": "^6.4.17",
+        "restify": "^8.5.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.0.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "nodemon": "~2.0.4"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "AzureServices":{
+        "AppInsights": {
+            "INSTRUMENT_KEY": "91e06934-7ebd-4fd0-98f8-7ab9247624c6"
+        },
+        "Luis":{
+            "MainDispatcher":{
+                "LuisAppId":"9dadb54e-2fdc-496c-8419-1e03fa9db97d",
+                "LuisAPIKey":"badc3b11ba3a4c8181ece160d5d16bf0",
+                        
+                "LuisAPIHostName":"https://ckhrpoliciesluis.cognitiveservices.azure.com/"
+            }
+        }
+
+    },
+    "Storage": {
+        "BotStateStorage": {
+            "BlobName": "bot-moonbakes-storage",
+            "BlobConnectionString": "DefaultEndpointsProtocol=https;AccountName=vofcust;AccountKey=J7VwcXlCU6HTS+B0l8G38GecH2dj7D8/xZxVGZVUZYgdV5aB8mIt2iOZ3FuL69V6xaTEuA2PnBf25eoTKDOvtA==;EndpointSuffix=core.windows.net"
+        }
+    },
+    "API": {
+        "APICredentials": {
+            "Secret": "eyJhbGciOiJIUzI1NiJ9.eyJ1c3IiOiJjYXZpbnVzZXIiLCJ0SWQiOiJDQVZJTlVBVCIsImV4cCI6MTYzNTgzNTAxN30.g304yU1PyO1ckVBB6LX9I1Z6nz4BKABtp391uv-_w2o",
+            "tenantID": "cavinuat"
+        },
+        "APIList": {
+            
+            "getHolidayList": {
+                "Method": "post",
+                "Endpoint": "https://api.cavinhub.com/hcm/leave/holidays"
+            }
+            
+        }
+    },
+    "dbstorage": {
+        "DB": {
+            "mssqlDB": {
+                "DatabaseName": "CKWarehouse",
+                "UserName": "ck_rpt_usr",
+                "Password": "Welcome0!",
+                "ServerName": "ckwarehouse.database.windows.net"
+            }
+        }
+    }
+    
+}
