@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'ckbakes-dev'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a6aae30cd33a4c31a6c8de823e13c39f }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_838e157a416d4baf97f337d24c56d4cb }}
         package: .
